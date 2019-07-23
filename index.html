@@ -15,46 +15,54 @@ https://www.color-hex.com/color-palette/20321
 */
 
 html {
-  background-color:#00e0d1;
+  background-color: #00e0d1;
   background-image: url("img/wavecut.png");
 }
-body{
+
+body {
+  max-width: 650px;
+  margin: auto auto;
+}
+
+.paper{
   position: relative;
+  max-width: 650px;
   margin:40px auto;
-  max-width:650px;
+
   line-height:1.6;
   font-size:18px;
+
   color:#444;
+
   padding:0 10px;
+
   border: 1px dotted #d0b6eb;
   background-color:#c7effb;
   background-image: url("img/lined-paper-2.png");
 }
+
 h1,h2,h3 {
   line-height:1.2;
   color: #b385dc;
 }
 
-#siren, #fairy, #mermaid {
+#siren, #fairy {
   position: absolute;
 }
 
 #fairy {
   top: 1em;
-  left: -170px;
-  width: 150px;
+  height: 70px;
 }
 
 #siren {
   top: 1em;
-  right: -320px;
-  width: 300px;
-  /*transform: scaleX(-1);*/
+  right: 8px;
+  height: 70px;
 }
 
 #mermaid {
-  bottom: -300px;
-  height: 300px;
+  width: 100%;
   /*left: calc(50%-236px);*/
 }
 
@@ -71,26 +79,29 @@ ul li:before {
     </style>
   </head>
   <body>
-    <img id="siren" src="img/siren.svg" />
-    <img id="fairy" src="img/fairy.svg" />
+    <div class="paper">
+      <img id="siren" src="img/siren.svg" />
+      <!--<img id="fairy" src="img/fairy.svg" />-->
+
+      <h1>Baby Shower!</h1>
+      <p>We're having a baby! Please join us in honoring Anna and celebrating our baby girl!</p>
+
+      <h2>Gifts</h2>
+      <p>We are not registered anywhere but if you want to bring a gift we would love these kinds of things:</p>
+      <ul>
+        <li>Clothes! Tiny clothes for Winter and 6mo+ for Spring.
+        <li>Blankets
+        <li>Burp cloths
+        <li>Bows or Dresses
+        <li>Books
+        <li>Toys
+        <li>Girly stuff!
+        <li>Cash! We gave away all of our baby stuff after Rory so we are eyeing some large items but they aren't on a registry.
+      </ul>
+      <p>We do not need any Bottles, Pacifiers, Wipes, or Diapers.</p>
+      <p>The theme for the shower is Mermaids.</p>
+    </div>
+
     <img id="mermaid" src="img/mermaid.svg" />
-
-    <h1>Baby Shower!</h1>
-    <p>We're having a baby! Please join us in honoring Anna and celebrating our baby girl!</p>
-
-    <h2>Gifts</h2>
-    <p>We are not registered anywhere but if you want to bring a gift we would love these kinds of things:</p>
-    <ul>
-      <li>Clothes! Tiny clothes for Winter and 6mo+ for Spring.
-      <li>Blankets
-      <li>Burp cloths
-      <li>Bows or Dresses
-      <li>Books
-      <li>Toys
-      <li>Girly stuff!
-      <li>Cash! We gave away all of our baby stuff after Rory so we are eyeing some large items but they aren't on a registry.
-    </ul>
-    <p>We do not need any Bottles, Pacifiers, Wipes, or Diapers.</p>
-    <p>The theme for the shower is Mermaids and Fairies.</p>
   </body>
 </html
